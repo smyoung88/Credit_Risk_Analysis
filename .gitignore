@@ -1,3 +1,6 @@
+# Add module files
+Module_Exercises/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
