@@ -9,27 +9,27 @@ Various machined learning techniques were employed to train and evaluate models 
 
 ## Results 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-**Naive Random Oversampling**
+**Naive Random Oversampling**<br>
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
-**SMOTE Oversampling**
+**SMOTE Oversampling**<br>
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png">
 
-**Cluster Centroids Undersampling**
+**Cluster Centroids Undersampling**<br>
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png">
 
-**Combination(Over and Under) Sampling with SMOTEENN**
+**Combination(Over and Under) Sampling with SMOTEENN**<br>
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ov_un_smoteenn.png">
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png">
 
-**Balanced Random Forest Classifier**
+**Balanced Random Forest Classifier**<br>
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png">
 
-**Easy Ensemble AdaBoost Classifier**
+**Easy Ensemble AdaBoost Classifier**<br>
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
 <img src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png">
 
