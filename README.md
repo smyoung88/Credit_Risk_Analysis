@@ -11,6 +11,62 @@ Various machined learning techniques were employed to train and evaluate models 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 **Naive Random Oversampling**<br><br>
+Accuracy Score: .66
+Precision Score 
+  - High Risk: .01
+  - Low Risk: 1.00
+Recall Score
+  - High Risk: .63
+  - Low Risk: .69
+
+**SMOTE Oversampling**<br><br>
+Accuracy Score: .62
+Precision Score 
+  - High Risk: .01
+  - Low Risk: 1.00
+Recall Score
+  - High Risk: .59
+  - Low Risk: .66
+
+**Cluster Centroids Undersampling**<br><br>
+Accuracy Score: .52
+Precision Score 
+  - High Risk: .01
+  - Low Risk: 1.00
+Recall Score
+  - High Risk: .60
+  - Low Risk: .43
+
+**Combination(Over and Under) Sampling with SMOTEENN**<br><br>
+Accuracy Score: .63
+Precision Score 
+  - High Risk: .01
+  - Low Risk: 1.00
+Recall Score
+  - High Risk: .69
+  - Low Risk: .58
+
+**Balanced Random Forest Classifier**<br><br>
+Accuracy Score: .79
+Precision Score 
+  - High Risk: .03
+  - Low Risk: 1.00
+Recall Score
+  - High Risk: .69
+  - Low Risk: .89
+
+**Easy Ensemble AdaBoost Classifier**<br><br>
+Accuracy Score: .93
+Precision Score 
+  - High Risk: .07
+  - Low Risk: 1.00
+Recall Score
+  - High Risk: .91
+  - Low Risk: .94
+
+For a cleaner display, results were shown as lists under each category. For codin screenshot support, commented out images have been copied below.
+
+<!-- **Naive Random Oversampling**<br><br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
@@ -33,5 +89,5 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 **Easy Ensemble AdaBoost Classifier**<br><br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png">
-
+ -->
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
