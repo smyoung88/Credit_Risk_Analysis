@@ -11,7 +11,7 @@ Various machined learning techniques were employed to train and evaluate models 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 **Naive Random Oversampling**<br>
-<img height="25%" width="25%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
+<img height="50%" width="50%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
 **SMOTE Oversampling**<br>
