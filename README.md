@@ -10,28 +10,28 @@ Various machined learning techniques were employed to train and evaluate models 
 ## Results 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-**Naive Random Oversampling**<br>
+**Naive Random Oversampling**<br><br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
-**SMOTE Oversampling**<br>
-<img height="50%" width="50%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
+**SMOTE Oversampling**<br><br>
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png">
 
-**Cluster Centroids Undersampling**<br>
-<img height="50%" width="50%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
+**Cluster Centroids Undersampling**<br><br>
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png">
 
-**Combination(Over and Under) Sampling with SMOTEENN**<br>
-<img height="50%" width="50%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ov_un_smoteenn.png">
+**Combination(Over and Under) Sampling with SMOTEENN**<br><br>
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ov_un_smoteenn.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png">
 
-**Balanced Random Forest Classifier**<br>
-<img height="50%" width="50%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
+**Balanced Random Forest Classifier**<br><br>
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png">
 
-**Easy Ensemble AdaBoost Classifier**<br>
-<img height="50%" width="50%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
+**Easy Ensemble AdaBoost Classifier**<br><br>
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png">
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
