@@ -86,7 +86,7 @@ For a cleaner display, results were shown as lists under each category. For codi
 
 **Analysis**<br><br>
 For easy comparison, the respective model number results are shown side by side respectively
-1, 2, 3, 4, 5, 6
+1, 2, 3, 4, 5, 6 <br>
 Accuracy Score: .66, .62, .52, .63, .79, .93 
 Precision Score 
   - High Risk: .01, .01, .01, .01, .03, .07
@@ -94,6 +94,8 @@ Precision Score
 Recall Score
   - High Risk: .63, .59, .60, .69, .69, .91
   - Low Risk: .69, .66, .43, .58, .89, .94
+
+## Summary: 
 
 **Accuracy**
 - As seen from the results, all models prior to the ensemble learners had accuracies ranging from .62 to .66 with Naive Random Oversampling being the highest. The Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifiers were the highest with accuracies of .79 and .93 respectively.
@@ -107,10 +109,4 @@ Recall Score
 - The Easy Ensemble AdaBoost Classifier had both high and low risk recalls above 90%. This means that when predicting each, there were a very low number of false negatives, so candidates were less likely to be in the wrong classification.
 
 **Overall Winner**
-- The Easy Ensemble AdaBoost Classifier was the only model that had all of its categories 90% above with .93, .91, and .94 for accuracy, precision, and recall respectively. This model was highly accurate.
-
-
-
-
-
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+- The Easy Ensemble AdaBoost Classifier was the only model that had all of its categories 90% above with .93, .91, and .94 for accuracy, precision, and recall respectively. I would recommend using this model out of the other models because of this. The only thing to be aware of is it was not precise in predicting high risk candidates. This means candidates might be flagged for high risk although they may be low risk. Other methods like credit score could be a final check for those who believe they are actually low risk candidates but got flagged as high risk.
