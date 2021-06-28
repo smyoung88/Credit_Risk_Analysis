@@ -85,12 +85,12 @@ Recall Score
 For a cleaner display, results were shown as lists under each category. For coding screenshot support, please refer to the raw readme file where image files can be uncommented to be seen.
 
 **Analysis**<br><br>
-For easy comparison, the respective model number results are shown side by side respectively
+For easy comparison, the respective model number results are shown side by side respectively<br>
 1, 2, 3, 4, 5, 6 <br>
-Accuracy Score: .66, .62, .52, .63, .79, .93 
+Accuracy Score: .66, .62, .52, .63, .79, .93 <br>
 Precision Score 
   - High Risk: .01, .01, .01, .01, .03, .07
-  - Low Risk: 1.00, 1.00, 1.00, 1.00, 1.00, 1.00 
+  - Low Risk: 1.00, 1.00, 1.00, 1.00, 1.00, 1.00 <br>
 Recall Score
   - High Risk: .63, .59, .60, .69, .69, .91
   - Low Risk: .69, .66, .43, .58, .89, .94
