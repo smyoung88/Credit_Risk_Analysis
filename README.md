@@ -10,10 +10,10 @@ Various machined learning techniques were employed to train and evaluate models 
 ## Results 
 
 **(1) Naive Random Oversampling**<br><br>
-Accuracy Score: .66
-Precision Score 
+Accuracy Score: .66<br>
+Precision Score
   - High Risk: .01
-  - Low Risk: 1.00
+  - Low Risk: 1.00<br>
 Recall Score
   - High Risk: .63
   - Low Risk: .69
