@@ -8,7 +8,6 @@ The purpose of this analysis is to display the differences between various machi
 Various machined learning techniques were employed to train and evaluate models with unbalanced classes while building and evaluating models using the resampling of a credit card dataset from LendingClub. Models used were Oversampling with both RandomOverSampler and SMOTE, Undersampling using ClusterCentroids, and a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Then, a comparison of two new machined learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, was done to predict credit risk. Each technique and model is highlighted below and a recommendation is given for each based on whether or not they should be used to predict credit risk.
 
 ## Results 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 **(1) Naive Random Oversampling**<br><br>
 Accuracy Score: .66
@@ -19,8 +18,8 @@ Recall Score
   - High Risk: .63
   - Low Risk: .69
 
-<!-- <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
-<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png"> -->
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
+<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
 **(2) SMOTE Oversampling**<br><br>
 Accuracy Score: .62
@@ -31,8 +30,8 @@ Recall Score
   - High Risk: .59
   - Low Risk: .66
 
-<!-- <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
-<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png"> -->
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
+<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png">
 
 **(3) Cluster Centroids Undersampling**<br><br>
 Accuracy Score: .52
@@ -43,8 +42,8 @@ Recall Score
   - High Risk: .60
   - Low Risk: .43
 
-<!-- <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
-<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png"> -->
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
+<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png">
 
 **(4) Combination(Over and Under) Sampling with SMOTEENN**<br><br>
 Accuracy Score: .63
@@ -54,9 +53,9 @@ Precision Score
 Recall Score
   - High Risk: .69
   - Low Risk: .58
-<!-- 
+
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ov_un_smoteenn.png">
-<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png"> -->
+<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png">
 
 **(5) Balanced Random Forest Classifier**<br><br>
 Accuracy Score: .79
@@ -67,8 +66,8 @@ Recall Score
   - High Risk: .69
   - Low Risk: .89
 
-<!-- <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
-<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png"> -->
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
+<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png">
 
 **(6) Easy Ensemble AdaBoost Classifier**<br><br>
 Accuracy Score: .93
@@ -79,10 +78,10 @@ Recall Score
   - High Risk: .91
   - Low Risk: .94
 
-<!-- <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
-<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png"> -->
+<img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
+<img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png">
 
-For a cleaner display, results were shown as lists under each category. For coding screenshot support, please refer to the raw readme file where image files can be uncommented to be seen.
+
 
 **Analysis**<br><br>
 For easy comparison, the respective model number results are shown side by side respectively<br>
