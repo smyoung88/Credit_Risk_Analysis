@@ -19,7 +19,7 @@ Recall Score
   - High Risk: .63
   - Low Risk: .69
 
-**Supporting Code Screnshots**<br>
+**Supporting Code Screenshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
@@ -33,7 +33,7 @@ Recall Score
   - High Risk: .59
   - Low Risk: .66
 
-**Supporting Code Screnshots**<br>
+**Supporting Code Screenshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png">
 
@@ -47,7 +47,7 @@ Recall Score
   - High Risk: .60
   - Low Risk: .43
 
-**Supporting Code Screnshots**<br>
+**Supporting Code Screenshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png">
 
@@ -61,7 +61,7 @@ Recall Score
   - High Risk: .69
   - Low Risk: .58
 
-**Supporting Code Screnshots**<br>
+**Supporting Code Screenshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ov_un_smoteenn.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png">
 
@@ -75,7 +75,7 @@ Recall Score
   - High Risk: .69
   - Low Risk: .89
 
-**Supporting Code Screnshots**<br>
+**Supporting Code Screenshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png">
 
@@ -89,7 +89,7 @@ Recall Score
   - High Risk: .91
   - Low Risk: .94
 
-**Supporting Code Screnshots**<br>
+**Supporting Code Screenshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png">
 
