@@ -19,7 +19,7 @@ Recall Score
   - High Risk: .63
   - Low Risk: .69
 
-**Supporting Code Screnshots**
+**Supporting Code Screnshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ran_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
@@ -28,11 +28,12 @@ Accuracy Score: .62
 Precision Score 
   - High Risk: .01
   - Low Risk: 1.00
+
 Recall Score
   - High Risk: .59
   - Low Risk: .66
 
-**Supporting Code Screnshots**
+**Supporting Code Screnshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_smote_over.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png">
 
@@ -41,24 +42,26 @@ Accuracy Score: .52
 Precision Score 
   - High Risk: .01
   - Low Risk: 1.00
+
 Recall Score
   - High Risk: .60
   - Low Risk: .43
 
-**Supporting Code Screnshots**
+**Supporting Code Screnshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_under_cc.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png">
 
 **(4) Combination(Over and Under) Sampling with SMOTEENN**<br><br>
-Accuracy Score: .63
+Accuracy Score: .64
 Precision Score 
   - High Risk: .01
   - Low Risk: 1.00
+
 Recall Score
   - High Risk: .69
   - Low Risk: .58
 
-**Supporting Code Screnshots**
+**Supporting Code Screnshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_ov_un_smoteenn.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png">
 
@@ -67,11 +70,12 @@ Accuracy Score: .79
 Precision Score 
   - High Risk: .03
   - Low Risk: 1.00
+
 Recall Score
   - High Risk: .69
   - Low Risk: .89
 
-**Supporting Code Screnshots**
+**Supporting Code Screnshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_brf.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png">
 
@@ -80,11 +84,12 @@ Accuracy Score: .93
 Precision Score 
   - High Risk: .07
   - Low Risk: 1.00
+
 Recall Score
   - High Risk: .91
   - Low Risk: .94
 
-**Supporting Code Screnshots**
+**Supporting Code Screnshots**<br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/acc_boost.png">
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_boost.png">
 
@@ -118,3 +123,4 @@ Recall Score
 
 **Overall Winner**
 - The Easy Ensemble AdaBoost Classifier was the only model that had all of its categories 90% above with .93, .91, and .94 for accuracy, precision, and recall respectively. For credit score, we would care more about low false negatives than low false positives (high recall vs high precision). I would recommend using this model out of the other models because of this. The only thing to be aware of is it was not precise in predicting high-risk candidates but that is okay because it means candidates might be flagged for high-risk although they may be low risk. Precautionary measures may be taken on an individual when they didn't need to be. Other analyses like credit scores could be a final check for those who believe they are low-risk candidates but got flagged as high risk. High recall means there is a low chance of not warning about a high-risk candidate when in fact they are high-risk candidates, leading to high-risk candidates being approved and there being possible repercussions because of it.
+- Since this model has such high accuracy, precision, and recall, it is advised to keep an eye on the model in case it is overfitted to the dataset provided and that it is continued to be evaluated as newer data is introduced to it.
