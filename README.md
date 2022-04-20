@@ -24,7 +24,7 @@ Recall Score
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ran_over.png">
 
 **(2) SMOTE Oversampling**<br><br>
-Accuracy Score: .62
+Accuracy Score: .62<br>
 Precision Score 
   - High Risk: .01
   - Low Risk: 1.00
@@ -38,7 +38,7 @@ Recall Score
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_smote_over.png">
 
 **(3) Cluster Centroids Undersampling**<br><br>
-Accuracy Score: .52
+Accuracy Score: .52<br>
 Precision Score 
   - High Risk: .01
   - Low Risk: 1.00
@@ -52,7 +52,7 @@ Recall Score
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_under_cc.png">
 
 **(4) Combination(Over and Under) Sampling with SMOTEENN**<br><br>
-Accuracy Score: .64
+Accuracy Score: .64<br>
 Precision Score 
   - High Risk: .01
   - Low Risk: 1.00
@@ -66,7 +66,7 @@ Recall Score
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_ov_un_smoteenn.png">
 
 **(5) Balanced Random Forest Classifier**<br><br>
-Accuracy Score: .79
+Accuracy Score: .79<br>
 Precision Score 
   - High Risk: .03
   - Low Risk: 1.00
@@ -80,7 +80,7 @@ Recall Score
 <img height="75%" width="75%" src="https://github.com/smyoung88/Credit_Risk_Analysis/blob/main/Resources/matrix_brf.png">
 
 **(6) Easy Ensemble AdaBoost Classifier**<br><br>
-Accuracy Score: .93
+Accuracy Score: .93<br>
 Precision Score 
   - High Risk: .07
   - Low Risk: 1.00
