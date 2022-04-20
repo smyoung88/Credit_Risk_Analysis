@@ -97,7 +97,7 @@ Recall Score
 
 **Analysis**<br><br>
 For easy comparison, the respective model number results are shown side by side respectively<br>
-1, 2, 3, 4, 5, 6 <br>
+1.Naive Random Oversampling, 2. SMOTE Oversampling, 3. Cluster Centroids Undersampling, 4. Combination(Over and Under) Sampling with SMOTEENN, 5. Balanced Random Forest Classifier, 6.Easy Ensemble AdaBoost Classifier <br>
 Accuracy Score: .66, .62, .52, .63, .79, .93
 
 Precision Score
