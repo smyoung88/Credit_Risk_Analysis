@@ -114,7 +114,7 @@ Recall Score
 - As seen from the results, all models before the ensemble learners had accuracies ranging from .62 to .66 with Naive Random Oversampling being the highest. The Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifiers were the highest with accuracies of .79 and .93 respectively.
 
 **Precision**
-- Out of all of the models, all of them were able to perfectly precise for predicting the low-risk candidates but were not precise at all in predicting high-risk candidates. This means that for the high-risk candidates, there were a lot of false positives. This means that the models predicted that certain candidates were flagged as high risk although they were low risk.
+- Out of all of the models, all of them were perfectly precise for predicting the low-risk candidates but were not precise at all in predicting high-risk candidates. This means that for the high-risk candidates, there were a lot of false positives. This means that the models predicted that certain candidates were flagged as high risk although they were low risk.
 - For low-risk candidates, there were no false positives meaning that every pick the model made for a low-risk candidate was 100% precise. 
 
 **Recall (Sensitivity)**
